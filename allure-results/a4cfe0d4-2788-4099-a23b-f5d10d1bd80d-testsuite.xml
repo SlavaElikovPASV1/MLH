@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1603946250560' stop='1603946251093'>
+    <name>My Little Hero: Labels are correct</name>
+    <title>My Little Hero: Labels are correct</title>
+    <test-cases>
+        <test-case start='1603946250560' status='failed' stop='1603946251093'>
+            <name>TC-006 Label for name = 1. What is your HERO's name?</name>
+            <title>TC-006 Label for name = 1. What is your HERO's name?</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.111'/>
+            </parameters>
+            <steps>
+                <step start='1603946250560' status='passed' stop='1603946250569'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='08fa4382-d55b-47c9-a734-9eabacbf0319-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='bd6ac503-a911-4cdb-b871-612b5652dcfe-attachment.json' type='application/json' size='366'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1603946250573' status='passed' stop='1603946250585'>
+                    <name>GET /session/:sessionId/element/2959ffaf-c5dc-46b7-8e91-21bae19322e5/attribute/title</name>
+                    <title>GET /session/:sessionId/element/2959ffaf-c5dc-46b7-8e91-21bae19322e5/attribute/title</title>
+                    <attachments>
+                        <attachment title='Response' source='7b4410ae-f472-4be4-9153-5dc4447e2321-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1603946250594' status='passed' stop='1603946251092'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a07c3167-cac9-4937-9948-f48af30884e8-attachment.png' type='image/png' size='116544'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                Expected: "1.What is your HERO's name?"
+                Received: "1. What is your HERO's name?"</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: "1.What is your HERO's name?"
+                Received: "1. What is your HERO's name?"
+                    at Context.&lt;anonymous> (/Users/ihorvorobiov/PASV/MLH/test/smoke/initial.js:61:26)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
