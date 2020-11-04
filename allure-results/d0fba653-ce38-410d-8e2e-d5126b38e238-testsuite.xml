@@ -1,0 +1,155 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604385921019' stop='1604385921112'>
+    <name>My Little Hero: Labels exist</name>
+    <title>My Little Hero: Labels exist</title>
+    <test-cases>
+        <test-case start='1604385921020' status='broken' stop='1604385921043'>
+            <name>TC-002 Label for name</name>
+            <title>TC-002 Label for name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps>
+                <step start='1604385921032' status='broken' stop='1604385921043'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604385921041' status='broken' stop='1604385921043'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='32c129ba-2b8d-4752-b101-27b49e5f9356-attachment.json' type='application/json' size='67'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'isDisplayed' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'isDisplayed' of undefined
+                    at Context.&lt;anonymous> (/Users/ihorvorobiov/PASV/MLH/test/smoke/labels.js:35:27)
+                    at Context.executeAsync (/Users/ihorvorobiov/PASV/MLH/node_modules/@wdio/utils/build/shim.js:96:25)
+                    at Context.exports.testFrameworkFnWrapper (/Users/ihorvorobiov/PASV/MLH/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:18:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1604385921053' status='broken' stop='1604385921069'>
+            <name>TC-003 Label for gender</name>
+            <title>TC-003 Label for gender</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps>
+                <step start='1604385921060' status='broken' stop='1604385921069'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604385921067' status='broken' stop='1604385921069'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='cf17a8f7-41f8-4ca9-8666-a1ee6135ed47-attachment.json' type='application/json' size='67'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'isDisplayed' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'isDisplayed' of undefined
+                    at Context.&lt;anonymous> (/Users/ihorvorobiov/PASV/MLH/test/smoke/labels.js:40:27)
+                    at Context.executeAsync (/Users/ihorvorobiov/PASV/MLH/node_modules/@wdio/utils/build/shim.js:96:25)
+                    at Context.exports.testFrameworkFnWrapper (/Users/ihorvorobiov/PASV/MLH/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:18:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1604385921072' status='broken' stop='1604385921087'>
+            <name>TC-004 Label for age</name>
+            <title>TC-004 Label for age</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps>
+                <step start='1604385921077' status='broken' stop='1604385921087'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604385921079' status='broken' stop='1604385921087'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='ba6e9745-9abf-4f01-93f4-155ec4086587-attachment.json' type='application/json' size='67'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'isDisplayed' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'isDisplayed' of undefined
+                    at Context.&lt;anonymous> (/Users/ihorvorobiov/PASV/MLH/test/smoke/labels.js:45:27)
+                    at Context.executeAsync (/Users/ihorvorobiov/PASV/MLH/node_modules/@wdio/utils/build/shim.js:96:25)
+                    at Context.exports.testFrameworkFnWrapper (/Users/ihorvorobiov/PASV/MLH/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:18:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1604385921099' status='broken' stop='1604385921109'>
+            <name>TC-005 Label for story</name>
+            <title>TC-005 Label for story</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps>
+                <step start='1604385921104' status='broken' stop='1604385921109'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604385921106' status='broken' stop='1604385921109'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='9d3660ff-aaf7-46bb-9afb-a938f852429b-attachment.json' type='application/json' size='67'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'isDisplayed' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'isDisplayed' of undefined
+                    at Context.&lt;anonymous> (/Users/ihorvorobiov/PASV/MLH/test/smoke/labels.js:50:27)
+                    at Context.executeAsync (/Users/ihorvorobiov/PASV/MLH/node_modules/@wdio/utils/build/shim.js:96:25)
+                    at Context.exports.testFrameworkFnWrapper (/Users/ihorvorobiov/PASV/MLH/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:18:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

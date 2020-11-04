@@ -56,7 +56,7 @@ describe('My Little Hero', function () { //define suite title by passing a strin
 
     describe('Labels are correct', function () {
 
-        it('TC-006 Label for name = 1. What is your HERO\'s name?', function () {
+        it('TC-006 Label for name = 1. What is your Hero\'s name?', function () {
             const text = $$(sel.label)[0].getAttribute('title');
             expect(text).toEqual(exp.labelName);
         });
@@ -66,15 +66,15 @@ describe('My Little Hero', function () { //define suite title by passing a strin
             expect(text ).toEqual(exp.labelGender);
         });
 
-       /*it('TC-008 Label for age', function () {
-            const label = $$('.ant-form-item-required')[2].isDisplayed();
-            expect(label).toEqual(true);
+       it('TC-008 Label for age', function () {
+            const text = $$(sel.label)[2].getAttribute('title');
+            expect(text).toEqual(exp.labelAge);
         });
 
         it('TC-009 Label for story', function () {
-            const label = $$('.ant-form-item-required')[3].isDisplayed();
-            expect(label).toEqual(true);
-        });*/
+            const text = $$(sel.label)[3].getAttribute('title');
+            expect(text).toEqual(exp.labelStory);
+        });
 
     });
 

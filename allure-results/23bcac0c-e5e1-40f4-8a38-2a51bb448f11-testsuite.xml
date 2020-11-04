@@ -1,0 +1,155 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604391285687' stop='1604391285734'>
+    <name>My Little Hero: Labels are correct</name>
+    <title>My Little Hero: Labels are correct</title>
+    <test-cases>
+        <test-case start='1604391285688' status='broken' stop='1604391285698'>
+            <name>TC-006 Label for name = 1. What is your Hero's name?</name>
+            <title>TC-006 Label for name = 1. What is your Hero's name?</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps>
+                <step start='1604391285689' status='broken' stop='1604391285698'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604391285695' status='broken' stop='1604391285698'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='dd23ebc4-3006-471a-a339-b9aadf7fda81-attachment.json' type='application/json' size='67'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'getAttribute' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'getAttribute' of undefined
+                    at Context.&lt;anonymous> (/Users/ihorvorobiov/PASV/MLH/test/smoke/labels.js:59:26)
+                    at Context.executeAsync (/Users/ihorvorobiov/PASV/MLH/node_modules/@wdio/utils/build/shim.js:96:25)
+                    at Context.exports.testFrameworkFnWrapper (/Users/ihorvorobiov/PASV/MLH/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:18:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1604391285701' status='broken' stop='1604391285710'>
+            <name>TC-007 Label for gender = 2. Please choose a gender.</name>
+            <title>TC-007 Label for gender = 2. Please choose a gender.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps>
+                <step start='1604391285702' status='broken' stop='1604391285710'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604391285706' status='broken' stop='1604391285710'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='c860d8c3-1618-410f-b4e5-0cdb02a5c671-attachment.json' type='application/json' size='67'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'getAttribute' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'getAttribute' of undefined
+                    at Context.&lt;anonymous> (/Users/ihorvorobiov/PASV/MLH/test/smoke/labels.js:64:26)
+                    at Context.executeAsync (/Users/ihorvorobiov/PASV/MLH/node_modules/@wdio/utils/build/shim.js:96:25)
+                    at Context.exports.testFrameworkFnWrapper (/Users/ihorvorobiov/PASV/MLH/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:18:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1604391285713' status='broken' stop='1604391285720'>
+            <name>TC-008 Label for age</name>
+            <title>TC-008 Label for age</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps>
+                <step start='1604391285715' status='broken' stop='1604391285720'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604391285717' status='broken' stop='1604391285720'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='d28d3b2b-3326-42b4-9f0e-d31ea2512eef-attachment.json' type='application/json' size='67'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'getAttribute' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'getAttribute' of undefined
+                    at Context.&lt;anonymous> (/Users/ihorvorobiov/PASV/MLH/test/smoke/labels.js:69:26)
+                    at Context.executeAsync (/Users/ihorvorobiov/PASV/MLH/node_modules/@wdio/utils/build/shim.js:96:25)
+                    at Context.exports.testFrameworkFnWrapper (/Users/ihorvorobiov/PASV/MLH/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:18:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1604391285723' status='broken' stop='1604391285731'>
+            <name>TC-009 Label for story</name>
+            <title>TC-009 Label for story</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps>
+                <step start='1604391285725' status='broken' stop='1604391285731'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604391285728' status='broken' stop='1604391285731'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='ddb71078-b6f1-47ac-8a5b-a982a148dfb4-attachment.json' type='application/json' size='67'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'getAttribute' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'getAttribute' of undefined
+                    at Context.&lt;anonymous> (/Users/ihorvorobiov/PASV/MLH/test/smoke/labels.js:74:26)
+                    at Context.executeAsync (/Users/ihorvorobiov/PASV/MLH/node_modules/@wdio/utils/build/shim.js:96:25)
+                    at Context.exports.testFrameworkFnWrapper (/Users/ihorvorobiov/PASV/MLH/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:18:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
