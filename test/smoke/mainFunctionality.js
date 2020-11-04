@@ -1,7 +1,7 @@
 const sel = require ('../../data/selectors.json');
 const data = require ('../../data/testData.json');
-const inputValues4 = require ('../../helpers/inputValues4.js');
-const inputValues4andClick = require ('../../helpers/inputValues4andClick.js');
+const inputValues4 = require ('../../helpers/inputValues4');
+const inputValues4andClick = require ('../../helpers/inputValues4andClick');
 
 describe('Checking the main functionality', function () {
     describe('Happy path', function () {
