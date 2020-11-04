@@ -77,7 +77,7 @@
             <failure>
                 <message>textим is not defined</message>
                 <stack-trace>ReferenceError: textим is not defined
-                    at Context.&lt;anonymous> (/Users/ihorvorobiov/PASV/MLH/test/smoke/initial.js:66:20)</stack-trace>
+                    at Context.&lt;anonymous> (/Users/ihorvorobiov/PASV/MLH/test/smoke/labels.js:66:20)</stack-trace>
             </failure>
         </test-case>
         <test-case start='1603949025296' status='passed' stop='1603949025323'>

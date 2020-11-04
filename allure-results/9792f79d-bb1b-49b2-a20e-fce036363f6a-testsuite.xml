@@ -1,0 +1,334 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604291295111' stop='1604291298220'>
+    <name>Inputs: Inputs are displayed</name>
+    <title>Inputs: Inputs are displayed</title>
+    <test-cases>
+        <test-case start='1604291295111' status='failed' stop='1604291295684'>
+            <name>TC-014 Name </name>
+            <title>TC-014 Name </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.111'/>
+            </parameters>
+            <steps>
+                <step start='1604291295119' status='passed' stop='1604291295170'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='3b30f68d-e7e8-4ed1-bfa5-67404db8d069-attachment.json' type='application/json' size='53'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604291295173' status='passed' stop='1604291295198'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6471b6ba-b1b3-47d2-8f24-36a5226f7eea-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='dda9416c-845d-49e9-9e58-fc0a5f11bbd4-attachment.json' type='application/json' size='2155'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604291295204' status='passed' stop='1604291295217'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5f046be9-e991-4875-8578-e1caff8caf4d-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='0f161efe-0070-4a34-89d2-8ae1895e9c56-attachment.json' type='application/json' size='2155'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604291295229' status='passed' stop='1604291295683'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='eb17c9eb-a30c-4a22-8333-517977dc1301-attachment.png' type='image/png' size='16850'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                Expected: true
+                Received: false</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: true
+                Received: false
+                    at Context.&lt;anonymous> (/Users/ihorvorobiov/PASV/MLH/test/smoke/inputs.js:8:26)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1604291295685' status='broken' stop='1604291296129'>
+            <name>TC-015 Gender (he)</name>
+            <title>TC-015 Gender (he)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.111'/>
+            </parameters>
+            <steps>
+                <step start='1604291295685' status='passed' stop='1604291295698'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='f8996c9f-e4ad-4d4d-9904-82f713509b92-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='22a8ab25-4e19-4da0-a97a-3f3f17f8d2bf-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604291295699' status='passed' stop='1604291296129'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e2d7947a-1131-4426-b6db-d31e52d7d131-attachment.png' type='image/png' size='16850'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'isDisplayed' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'isDisplayed' of undefined
+                    at Context.&lt;anonymous> (/Users/ihorvorobiov/PASV/MLH/test/smoke/inputs.js:11:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1604291296129' status='broken' stop='1604291296544'>
+            <name>TC-016 Gender (she)</name>
+            <title>TC-016 Gender (she)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.111'/>
+            </parameters>
+            <steps>
+                <step start='1604291296131' status='passed' stop='1604291296141'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='851ebcc0-4e09-4400-9680-e7009139baae-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='87f4e3ab-60b8-497c-ae49-7cb678e150ca-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604291296143' status='passed' stop='1604291296544'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b3e856ba-85cd-457f-9f61-47f9401f0fcc-attachment.png' type='image/png' size='16850'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'isDisplayed' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'isDisplayed' of undefined
+                    at Context.&lt;anonymous> (/Users/ihorvorobiov/PASV/MLH/test/smoke/inputs.js:15:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1604291296545' status='broken' stop='1604291296941'>
+            <name>TC-017 Gender (it)</name>
+            <title>TC-017 Gender (it)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.111'/>
+            </parameters>
+            <steps>
+                <step start='1604291296545' status='passed' stop='1604291296555'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='1fa90818-7531-4474-a292-57d000307d10-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='adbaed5e-b339-446e-9a2a-b5cf2b6bd77c-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604291296557' status='passed' stop='1604291296940'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b283e02f-a111-446e-b1f0-faba5a72e82e-attachment.png' type='image/png' size='16850'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'isDisplayed' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'isDisplayed' of undefined
+                    at Context.&lt;anonymous> (/Users/ihorvorobiov/PASV/MLH/test/smoke/inputs.js:19:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1604291296941' status='failed' stop='1604291297357'>
+            <name>TC-018 Age</name>
+            <title>TC-018 Age</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.111'/>
+            </parameters>
+            <steps>
+                <step start='1604291296941' status='passed' stop='1604291296955'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b3fbf2dd-c87b-4d53-bbc6-b020a4e1a02c-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='7e7c9565-2976-4f16-b266-ea567c83d0d2-attachment.json' type='application/json' size='2154'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604291296958' status='passed' stop='1604291296967'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1b51cd80-4400-462a-b959-9614ad0b6260-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='d5f561c2-78ea-40d2-ba6e-fc0d2e96fa43-attachment.json' type='application/json' size='2154'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604291296969' status='passed' stop='1604291297356'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1e561e32-1530-450c-95f5-e705ae8307ea-attachment.png' type='image/png' size='16850'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                Expected: true
+                Received: false</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: true
+                Received: false
+                    at Context.&lt;anonymous> (/Users/ihorvorobiov/PASV/MLH/test/smoke/inputs.js:24:27)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1604291297357' status='failed' stop='1604291297783'>
+            <name>TC-019 Story</name>
+            <title>TC-019 Story</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.111'/>
+            </parameters>
+            <steps>
+                <step start='1604291297357' status='passed' stop='1604291297369'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='662f8817-b51b-4f76-9ccf-c0192be38aa9-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='9466ba15-ae6c-4369-b527-89f8b066f64a-attachment.json' type='application/json' size='2170'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604291297371' status='passed' stop='1604291297382'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='74acf0ab-8c4c-4d29-8444-31a4574591f2-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='85a566ef-9167-4556-931b-3b53b6b5a795-attachment.json' type='application/json' size='2170'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604291297384' status='passed' stop='1604291297783'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b77ccd11-4bf6-4432-901f-7d82b4c67b2d-attachment.png' type='image/png' size='16850'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                Expected: true
+                Received: false</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: true
+                Received: false
+                    at Context.&lt;anonymous> (/Users/ihorvorobiov/PASV/MLH/test/smoke/inputs.js:28:27)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1604291297784' status='failed' stop='1604291298219'>
+            <name>TC-020 Create</name>
+            <title>TC-020 Create</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.111'/>
+            </parameters>
+            <steps>
+                <step start='1604291297784' status='passed' stop='1604291297799'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='47f3d07d-1285-4afa-8af7-ed263f92413b-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='244c0300-ed2e-464a-a7ed-f7410e792fab-attachment.json' type='application/json' size='2158'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604291297802' status='passed' stop='1604291297812'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='09c8fbc2-297a-42b4-a308-338375720867-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='0a91c111-e423-4fa0-abff-1aee61e3ed67-attachment.json' type='application/json' size='2158'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604291297814' status='passed' stop='1604291298219'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f98ca102-8bb6-44d1-a1c5-60af81bbf486-attachment.png' type='image/png' size='16850'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                Expected: true
+                Received: false</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: true
+                Received: false
+                    at Context.&lt;anonymous> (/Users/ihorvorobiov/PASV/MLH/test/smoke/inputs.js:32:27)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

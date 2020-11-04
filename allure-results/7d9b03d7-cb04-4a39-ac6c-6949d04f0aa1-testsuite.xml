@@ -1,0 +1,139 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604291309279' stop='1604291309419'>
+    <name>My Little Hero: Labels exist</name>
+    <title>My Little Hero: Labels exist</title>
+    <test-cases>
+        <test-case start='1604291309279' status='passed' stop='1604291309332'>
+            <name>TC-002 Label for name</name>
+            <title>TC-002 Label for name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.111'/>
+            </parameters>
+            <steps>
+                <step start='1604291309282' status='passed' stop='1604291309304'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='c8229659-d2d9-4add-851b-fa9249820949-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='af0482e2-1804-4d42-995f-42d4b0477c32-attachment.json' type='application/json' size='366'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604291309315' status='passed' stop='1604291309331'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='3d1c0c66-3b63-490c-90c6-11a576d42a90-attachment.json' type='application/json' size='5893'/>
+                        <attachment title='Response' source='231d820c-658a-41ef-8695-6b9dc9d79b95-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1604291309332' status='passed' stop='1604291309368'>
+            <name>TC-003 Label for gender</name>
+            <title>TC-003 Label for gender</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.111'/>
+            </parameters>
+            <steps>
+                <step start='1604291309333' status='passed' stop='1604291309347'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='1d6f773d-b429-4cb2-b0da-3b9e5d5f5a15-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='3b4bec18-d78c-4fdd-89eb-8f6f59bd7917-attachment.json' type='application/json' size='366'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604291309352' status='passed' stop='1604291309367'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='dfbbbd52-e2a7-4e5a-9319-f8c90b2230fe-attachment.json' type='application/json' size='5893'/>
+                        <attachment title='Response' source='59ec0d29-3ed9-4d56-be22-fba768f651c7-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1604291309368' status='passed' stop='1604291309399'>
+            <name>TC-004 Label for age</name>
+            <title>TC-004 Label for age</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.111'/>
+            </parameters>
+            <steps>
+                <step start='1604291309369' status='passed' stop='1604291309382'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='b3483fd1-87b7-48af-8412-3847f9adf188-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='ad190f4b-a6ec-4c73-9d1e-1bbe835b74e2-attachment.json' type='application/json' size='366'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604291309387' status='passed' stop='1604291309398'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='fc7ea28c-a045-45c2-b9ce-3ddfe0f73ff9-attachment.json' type='application/json' size='5893'/>
+                        <attachment title='Response' source='ccbe0445-0eda-48e3-bee1-1be94fa1efc5-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1604291309399' status='passed' stop='1604291309419'>
+            <name>TC-005 Label for story</name>
+            <title>TC-005 Label for story</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.111'/>
+            </parameters>
+            <steps>
+                <step start='1604291309399' status='passed' stop='1604291309408'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='c1215125-dbe5-4641-8628-d3f996dc161b-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='c39186d0-331c-445f-8191-b6c99c929d2a-attachment.json' type='application/json' size='366'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604291309411' status='passed' stop='1604291309419'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='8e900e93-2cdf-4e4b-92ce-72d21f08e9d9-attachment.json' type='application/json' size='5893'/>
+                        <attachment title='Response' source='b4232ea9-0105-43c4-9c07-e22abab84794-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

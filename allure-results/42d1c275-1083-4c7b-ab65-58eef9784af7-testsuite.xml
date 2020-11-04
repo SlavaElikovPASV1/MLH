@@ -83,7 +83,7 @@
                 
                 Expected: "2. Please choose a gender."
                 Received: "2. Form Size"
-                    at Context.&lt;anonymous> (/Users/ihorvorobiov/PASV/MLH/test/smoke/initial.js:66:27)</stack-trace>
+                    at Context.&lt;anonymous> (/Users/ihorvorobiov/PASV/MLH/test/smoke/labels.js:66:27)</stack-trace>
             </failure>
         </test-case>
         <test-case start='1603949161679' status='passed' stop='1603949161703'>

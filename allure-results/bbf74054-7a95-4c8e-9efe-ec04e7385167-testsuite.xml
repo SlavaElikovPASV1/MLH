@@ -51,7 +51,7 @@
                 
                 Expected: "1.What is your HERO's name?"
                 Received: "1. What is your HERO's name?"
-                    at Context.&lt;anonymous> (/Users/ihorvorobiov/PASV/MLH/test/smoke/initial.js:61:26)</stack-trace>
+                    at Context.&lt;anonymous> (/Users/ihorvorobiov/PASV/MLH/test/smoke/labels.js:61:26)</stack-trace>
             </failure>
         </test-case>
     </test-cases>
